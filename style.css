@@ -23,9 +23,9 @@ body {
 
 #screen {
   background-color: lightgrey;
-  height: 100px;
-  width: calc(4 * 100px + 3 * 15px);
-  margin-bottom: 30px;
+  height: 80px;
+  width: calc(4 * 70px + 3 * 15px);
+  margin-bottom: 15px;
   border-radius: 15px;
   display: flex;
   justify-content: end;
@@ -56,8 +56,8 @@ body {
 }
 
 .buttons button {
-  width: 100px;
-  height: 100px;
+  width: 70px !important;
+  height: 70px !important;
   background-color: blue;
   color: white;
   font-weight: bold;
@@ -78,8 +78,8 @@ body {
   gap: 15px;
 }
 
-.w-2 {
-  width: calc(200px + 1 * 15px) !important;
+button.w-2 {
+  width: calc(140px + 1 * 15px) !important;
 }
 
 .flex-col {
